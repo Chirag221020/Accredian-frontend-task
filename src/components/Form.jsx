@@ -16,7 +16,7 @@ function Form({handleFun}) {
   const handleSubmit = async (e) => {
     e.preventDefault();
    try {
-    const result = await  axios.post("http://localhost:8000/api/refer", formData)
+    const result = await  axios.post("https://accredian-backend-task-3-88d9.onrender.com/api/refer", formData)
     if(result){
       handleFun();
       alert("Your referral saved Successfully.  ")
