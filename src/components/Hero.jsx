@@ -19,7 +19,7 @@ const style = {
   
   return (
     <>
-    <div className=' w-full py-40 md:py-72 bg-gradient-to-r from-slate-600 to-cyan-200 mx-auto flex flex-col items-center justify-center gap-8 '>
+    <div className=' w-full py-40 md:py-72 bg-gradient-to-r from-blue-600 to-blue-200 mx-auto flex flex-col items-center justify-center gap-8 '>
       {/* mid text */}
 
       <div className="max-w-3xl flex flex-col gap-10 text-center absolute md:-translate-y-20">
@@ -34,16 +34,12 @@ const style = {
 
           <div className="-translate-y-[-150px]">
           <Button
+          id = "btn"
           onClick={handleOpen}
-  className="relative inline-flex h-14 active:scale-95 transistion overflow-hidden rounded-lg p-[1px] focus:outline-none w-[200px]"
+  className="relative inline-flex h-20 active:scale-95 transistion overflow-hidden rounded-lg p-[1px] focus:outline-none w-[220px] "
 >
-
   <span
-    className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#e7029a_0%,#f472b6_50%,#bd5fff_100%)]"
-  >
-  </span>
-  <span
-    className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg pl-8 py-6 bg-slate-950 px-5 text-lg font-medium text-white backdrop-blur-3xl gap-2 undefined"
+    className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg pl-8 py-6 bg-slate-950 px-5 text-xl font-medium text-white backdrop-blur-3xl gap-2 undefined"
   >
     Refer Now
     <svg

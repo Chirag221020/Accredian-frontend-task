@@ -16,7 +16,13 @@ function Footer() {
                   rewards in the process. Invite your friends, and you'll both receive special offers and bonuses when
                   they sign up.
                 </p>
+                <a href="#btn">
+
+
                 <button className="mt-6 bg-slate-950 flex justify-center h-12 w-36 rounded-lg text-white items-center text-lg">Refer Now</button>
+
+
+                </a>
               </div>
             </div>
           </div>
